@@ -1,10 +1,10 @@
 node_modules
-/settings.json
+# /settings.json
 !settings.json.template
-APIKEY.txt
+# APIKEY.txt
 SESSIONKEY.txt
 etherpad-lite-win.zip
-var/dirty.db
+# var/dirty.db
 *~
 *.patch
 npm-debug.log
