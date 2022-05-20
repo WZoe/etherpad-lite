@@ -98,6 +98,7 @@ exports.update = async () => {
   defs.parts = sortParts(parts);
   defs.hooks = pluginUtils.extractHooks(defs.parts, 'hooks', exports.pathNormalization);
   defs.loaded = true;
+  await fs.stat('.');
   await Promise.all(Object.keys(defs.plugins).map((p) => hooks.aCallAll(`init_${p}`, {})));
 };
 

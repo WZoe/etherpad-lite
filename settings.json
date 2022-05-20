@@ -51,7 +51,7 @@
   "suppressErrorsInPadText": false,
   "requireSession": false,
   "editOnly": false,
-  "minify": true,
+  "minify": false,
   "maxAge": 21600,
   "abiword": null,
   "soffice": null,
